@@ -5,7 +5,7 @@
 *or fizz or buzz or fizzBuzz
 *
 *
-*Return: return 0
+*Return: returns 0
 */
 
 int main(void)
@@ -33,5 +33,12 @@ int main(void)
 				printf("Buzz");
 			}
 		}
+		else
+		{
+			printf("%d ", num);
+		}
 	}
+	printf("\n");
+
+	return (0);
 }
